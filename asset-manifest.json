@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/face-rec-brain/static/css/main.4124d589.chunk.css",
+    "main.js": "/face-rec-brain/static/js/main.4b1d6eed.chunk.js",
+    "main.js.map": "/face-rec-brain/static/js/main.4b1d6eed.chunk.js.map",
+    "runtime-main.js": "/face-rec-brain/static/js/runtime-main.ad0f2ad7.js",
+    "runtime-main.js.map": "/face-rec-brain/static/js/runtime-main.ad0f2ad7.js.map",
+    "static/css/2.31461e4f.chunk.css": "/face-rec-brain/static/css/2.31461e4f.chunk.css",
+    "static/js/2.40bd506a.chunk.js": "/face-rec-brain/static/js/2.40bd506a.chunk.js",
+    "static/js/2.40bd506a.chunk.js.map": "/face-rec-brain/static/js/2.40bd506a.chunk.js.map",
+    "static/js/3.741959d6.chunk.js": "/face-rec-brain/static/js/3.741959d6.chunk.js",
+    "static/js/3.741959d6.chunk.js.map": "/face-rec-brain/static/js/3.741959d6.chunk.js.map",
+    "index.html": "/face-rec-brain/index.html",
+    "static/css/2.31461e4f.chunk.css.map": "/face-rec-brain/static/css/2.31461e4f.chunk.css.map",
+    "static/css/main.4124d589.chunk.css.map": "/face-rec-brain/static/css/main.4124d589.chunk.css.map",
+    "static/js/2.40bd506a.chunk.js.LICENSE.txt": "/face-rec-brain/static/js/2.40bd506a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ad0f2ad7.js",
+    "static/css/2.31461e4f.chunk.css",
+    "static/js/2.40bd506a.chunk.js",
+    "static/css/main.4124d589.chunk.css",
+    "static/js/main.4b1d6eed.chunk.js"
+  ]
+}
