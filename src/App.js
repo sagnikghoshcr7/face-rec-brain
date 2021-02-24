@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Particles from 'react-particles-js';
 import Clarifai from 'clarifai';
 import Navigation from './components/Navigation/Navigation';
+import FaceRecognition from './components/FaceRecognition/FaceRecognition';
 import Logo from './components/Logo/Logo';
 import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm';
 import Rank from './components/Rank/Rank';
@@ -28,14 +29,16 @@ class App extends Component {
     super();
     this.state = {
       input: '',
+      imageUrl: ''
     }
   }
 
   onInputChange = (event) => {
-
+    this.setState({input: event.target.value});
   }
 
   onButtonSubmit = () => {
+    this.setState({imageUrl: this.state.input});
     app.models
       .predict(
         Clarifai.FACE_DETECT_MODEL,
@@ -57,7 +60,7 @@ class App extends Component {
           onInputChange={this.onInputChange}
           onButtonSubmit={this.onButtonSubmit}
         />
-        {/*<FaceRecognition />*/}
+        <FaceRecognition imageUrl={this.state.imageUrl} />
       </div>
     );
   }
